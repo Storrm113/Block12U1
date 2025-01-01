@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(126, 10, 10);
+  background-color: rgb(10, 126, 54);
 }
 a,
 h1,
@@ -14,41 +14,48 @@ h3 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .persistent-header {
-  background-color: rgb(126, 10, 10);
-  color: white;
+  background-color: rgb(10, 126, 54);
+  color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 3%;
 }
+
+h2{
+  font-size: 30px;
+  font-weight: bolder;
+}
 .footer-nav {
   text-align: center;
+  color: black;
 }
 .footer-list {
-  color: white;
+  color: black;
 }
 .links-list li {
   display: inline-block;
 }
 .links-list a {
-  color: white;
+  color: black;
+  font-size: 24px;
 }
 .main-content {
   width: 75%;
   margin: 0 auto;
-  background-color: red;
+  background-color: rgb(51, 173, 98);
   padding: 10px 60px 45px;
 }
 .main-content > h2 {
-  color: black;
-  font-weight: 300;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
   margin-bottom: 10px;
 }
 .main-content > hr {
   margin-bottom: 25px;
 }
 .main-content section {
-  background-color: grey;
+  background-color: rgb(151, 248, 203);
   margin-bottom: 30px;
   padding-top: 20px;
 }
@@ -60,7 +67,7 @@ h3 {
 .main-content section h3 {
   margin-left: 5%;
   font-size: 28px;
-  font-weight: 400;
+  font-weight: 700;
 }
 .section-content {
   padding: 13px;
@@ -85,5 +92,19 @@ section:nth-of-type(2) .section-content img {
 }
 h4 {
   text-align: center;
-  color: white;
+  color: black;
 }
+
+.links-list-footer {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  font-size: 24px;
+  justify-content: space-evenly;
+  color: black;
+}
+
+.links-list-footer a {
+  color: black;
+}
+
