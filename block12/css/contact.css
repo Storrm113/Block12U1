@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: rgb(10, 126, 54);
+  }
+  a,
+  h1,
+  h2,
+  h3 {
+    text-decoration: none;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .persistent-header {
+    background-color: rgb(10, 126, 54);
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 3%;
+  }
+  
+  h2{
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  .footer-nav {
+    text-align: center;
+    color: black;
+  }
+  .footer-list {
+    color: black;
+  }
+  .links-list li {
+    display: inline-block;
+  }
+  .links-list a {
+    color: black;
+    font-size: 24px;
+    font-weight: bolder;
+  }
+  .main-content {
+    width: 75%;
+    margin: 0 auto;
+    background-color: rgb(51, 173, 98);
+    padding: 10px 60px 45px;
+  }
+  .main-content > h2 {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .main-content > hr {
+    margin-bottom: 25px;
+  }
+  .main-content section {
+    background-color: rgb(151, 248, 203);
+    margin-bottom: 30px;
+    padding-top: 20px;
+  }
+  .main-content section hr {
+    width: 90%;
+    margin: 0 auto;
+    border-color: red;
+  }
+  .main-content section h3 {
+    margin-left: 5%;
+    font-size: 28px;
+    font-weight: 700;
+  }
+ 
+  h4 {
+    text-align: center;
+    color: black;
+  }
+  
+  .links-list-footer {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    justify-content: space-evenly;
+    color: black;
+  }
+  
+  .links-list-footer a {
+    color: black;
+  }
+  
+ h4 {
+    padding-top: 20%;
+ }
+
+ .mail{
+    margin-left: 20%;
+ }
+ 

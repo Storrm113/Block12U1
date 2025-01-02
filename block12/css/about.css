@@ -52,6 +52,7 @@ h2 {
 .links-list a {
   font-size: 24px ;
   color: black;
+  font-weight: bolder;
 }
 .main-content {
   width: 75%;
