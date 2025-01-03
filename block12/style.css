@@ -20,6 +20,10 @@ h3 {
   justify-content: space-between;
   align-items: center;
   padding: 20px 3%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
 }
 
 h2{
@@ -109,3 +113,12 @@ h4 {
   color: black;
 }
 
+.footer{
+    position: fixed;
+    height: 45px;
+    background-color: rgb(10, 126, 54);
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
